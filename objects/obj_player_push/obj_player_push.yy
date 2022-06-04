@@ -1,0 +1,42 @@
+{
+  "spriteId": null,
+  "solid": false,
+  "visible": true,
+  "managed": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "obj_Player_Walk",
+    "path": "objects/obj_Player_Walk/obj_Player_Walk.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":true,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [
+    {"varType":5,"value":"spr_Crate","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"crate","tags":[],"resourceType":"GMObjectProperty",},
+  ],
+  "overriddenProperties": [
+    {"propertyId":{"name":"walk_speed","path":"objects/obj_Player_Walk/obj_Player_Walk.yy",},"objectId":{"name":"obj_Player_Walk","path":"objects/obj_Player_Walk/obj_Player_Walk.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"move_distance","path":"objects/obj_Player_Walk/obj_Player_Walk.yy",},"objectId":{"name":"obj_Player_Walk","path":"objects/obj_Player_Walk/obj_Player_Walk.yy",},"value":"128","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
+  "parent": {
+    "name": "Push",
+    "path": "folders/Player/Push.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "obj_Player_Push",
+  "tags": [],
+  "resourceType": "GMObject",
+}
